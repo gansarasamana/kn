@@ -1,0 +1,34 @@
+[
+  {
+    "content": "Pemulihan lingkungan + ukur ulang titik henti (POC U, gate.sh --full, readiness)",
+    "status": "completed"
+  },
+  {
+    "content": "FASE U fix-1: panel mati finance — beri izin uom:view + verifikasi audit_sales_roles_ux hijau",
+    "status": "completed"
+  },
+  {
+    "content": "FASE U fix-2: POC U nol residu jejak (audit_before sebelum login, pembersih notifikasi title/body, sesi POC) + pemeriksaan mandiri pola T9 — POC 63/63",
+    "status": "completed"
+  },
+  {
+    "content": "FASE U fix-3: sessions — DIUKUR, BUKAN BUG (TTL index expireAfterSeconds=0 sudah ada & bekerja; 0 sesi kedaluwarsa). Kecurigaan saya sendiri terbukti palsu; POC tetap menghapus 3 sesinya",
+    "status": "completed"
+  },
+  {
+    "content": "FASE U verifikasi: gate_residue --check · validate_compliance · gate.sh --full HIJAU",
+    "status": "in_progress"
+  },
+  {
+    "content": "FASE U uji UI: user story U-US1..U-US4 lewat agen uji + reproduksi sendiri di peramban",
+    "status": "pending"
+  },
+  {
+    "content": "FASE U tutup: plan.md §STATUS U + SESSION_HANDOFF.md diperbarui",
+    "status": "pending"
+  },
+  {
+    "content": "FASE D (permintaan desain) + P.0 (tautan PO→PR): ukur, bangun, gate, POC, uji UI",
+    "status": "pending"
+  }
+]
